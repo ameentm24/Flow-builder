@@ -1,0 +1,54 @@
+.time-node{
+    width: 200px;
+
+    min-height: 75px;
+
+    border: 1px solid grey;
+    /* background-color: whitesmoke; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+
+    gap: 20px;
+
+
+
+    padding: 10px;
+}
+
+.time-node:hover{
+    background-color: hsl(283, 100%, 75%);
+    color: white;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid hsl(283, 100%, 25%);
+    border-radius: 5px;
+
+    object-fit: cover;
+    
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.time-node svg:hover path{
+    stroke: white;
+}
+
+
+.heading p{
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.text{
+    font-size: 12px;
+}

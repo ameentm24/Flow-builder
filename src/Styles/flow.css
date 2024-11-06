@@ -1,0 +1,9 @@
+.dndflow{
+    height: 100vh;
+}
+
+.reactflow-wrapper {
+    height: 100%;
+   
+    overflow: hidden;
+}

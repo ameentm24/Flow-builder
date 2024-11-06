@@ -1,0 +1,18 @@
+.user-login {
+    width: 500px;
+    margin: 100px auto;
+    padding: 30px 20px 60px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+  }
+  
+  .user-login .seller-login-input {
+    font-size: 17px;
+    margin: 10px 0;
+  }
+  .user-login .btn-div {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+  }
+  
